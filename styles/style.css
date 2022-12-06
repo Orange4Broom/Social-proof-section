@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
 * {
-  font-family: "Kumbh Sans", sans-serif;
+  font-family: "League Spartan", sans-serif;
   box-sizing: border-box;
 }
 
@@ -23,7 +23,6 @@ body #main {
   height: 800px;
   width: 100%;
   max-width: 1440px;
-  background-color: lightgrey;
 }
 body #main #top {
   display: flex;
@@ -36,11 +35,24 @@ body #main #top #content {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 0;
+  gap: 30px;
   height: 400px;
   width: 100%;
   max-width: 720px;
-  background-color: green;
+}
+body #main #top #content #header {
+  color: hsl(300deg, 43%, 22%);
+  font-weight: 700;
+  font-size: 52px;
+  max-width: 400px;
+}
+body #main #top #content #paragraf {
+  margin: 0;
+  color: hsl(303deg, 10%, 53%);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  max-width: 500px;
 }
 body #main #top #rating {
   height: 400px;
@@ -55,10 +67,4 @@ body #bottom {
   height: 400px;
   width: 100%;
   background-color: lightblue;
-}
-body #bottom #paragraf {
-  margin: 0;
-  color: hsl(303deg, 10%, 53%);
-  font-size: 15px;
-  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
