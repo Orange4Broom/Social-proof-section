@@ -40,13 +40,13 @@ body #main #top #content {
   height: 400px;
   width: 100%;
   max-width: 720px;
-  background-color: limegreen;
+  background-color: green;
 }
 body #main #top #rating {
   height: 400px;
   width: 100%;
   max-width: 720px;
-  background-color: purple;
+  background-color: pink;
 }
 body #bottom {
   display: flex;
