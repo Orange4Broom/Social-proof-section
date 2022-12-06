@@ -25,13 +25,13 @@ body
 
         height: 800px
         width: 100%
-        max-width: 1440px
+        max-width: 1220px
 
         #top
             display: flex
             flex-direction: row
 
-            height: 400px
+            height: 300px
             width: 100%
 
             #content
@@ -42,9 +42,9 @@ body
 
                 gap: 30px
 
-                height: 400px
+                height: 300px
                 width: 100%
-                max-width: 720px
+                max-width: 600px
 
                 #header
                     color: hsl(300, 43%, 22%)
@@ -62,14 +62,64 @@ body
 
                     max-width: 500px
 
-
-
             #rating
+                display: flex
+                flex-direction: column
+                justify-content: flex-start
+                align-items: flex-end
+
+                gap: 15px
+
                 height: 400px
                 width: 100%
                 max-width: 720px
 
-                background-color: pink
+                padding-top: 30px
+
+                .rating-box
+                    display: flex
+                    flex-direction: row
+                    justify-content: flex-start
+                    align-items: center
+
+                    gap: 30px
+
+                    height: 60px
+                    width: 100%
+                    max-width: 450px
+
+                    border-radius: 10px
+
+                    color: hsl(300, 43%, 22%)
+                    font-size: 18px
+                    font-weight: 700
+
+                    background-color: hsl(300, 24%, 91%)
+
+                .rating-box:nth-child(1)
+                    margin-right: 120px
+
+                .rating-box:nth-child(2)
+                    margin-right: 60px
+
+                .rating-box:nth-child(3)
+                    margin-right: 0px
+
+                .stars
+                    display: flex
+                    flex-direction: row
+
+                    gap: 5px
+
+                    margin-left: 30px
+
+                .star
+                    height: 20px
+                    width: 20px
+
+                    background-image: url('/images/icon-star.svg')
+                    background-repeat: no-repeat
+                    background-position: cover
 
 
 

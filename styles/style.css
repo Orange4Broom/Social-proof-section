@@ -22,12 +22,12 @@ body #main {
   align-items: center;
   height: 800px;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1220px;
 }
 body #main #top {
   display: flex;
   flex-direction: row;
-  height: 400px;
+  height: 300px;
   width: 100%;
 }
 body #main #top #content {
@@ -36,9 +36,9 @@ body #main #top #content {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 30px;
-  height: 400px;
+  height: 300px;
   width: 100%;
-  max-width: 720px;
+  max-width: 600px;
 }
 body #main #top #content #header {
   color: hsl(300deg, 43%, 22%);
@@ -55,10 +55,52 @@ body #main #top #content #paragraf {
   max-width: 500px;
 }
 body #main #top #rating {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 15px;
   height: 400px;
   width: 100%;
   max-width: 720px;
-  background-color: pink;
+  padding-top: 30px;
+}
+body #main #top #rating .rating-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  height: 60px;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+  color: hsl(300deg, 43%, 22%);
+  font-size: 18px;
+  font-weight: 700;
+  background-color: hsl(300deg, 24%, 91%);
+}
+body #main #top #rating .rating-box:nth-child(1) {
+  margin-right: 120px;
+}
+body #main #top #rating .rating-box:nth-child(2) {
+  margin-right: 60px;
+}
+body #main #top #rating .rating-box:nth-child(3) {
+  margin-right: 0px;
+}
+body #main #top #rating .stars {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-left: 30px;
+}
+body #main #top #rating .star {
+  height: 20px;
+  width: 20px;
+  background-image: url("/images/icon-star.svg");
+  background-repeat: no-repeat;
+  background-position: cover;
 }
 body #bottom {
   display: flex;
