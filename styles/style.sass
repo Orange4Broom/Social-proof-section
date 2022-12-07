@@ -14,7 +14,7 @@ body
     margin: 0
     padding: 25px
 
-    height: 100vh
+    min-height: 100vh
     width: 100%
 
     background-image: url('/images/bg-pattern-bottom-desktop.svg'), url('/images/bg-pattern-top-desktop.svg')
@@ -27,14 +27,13 @@ body
         align-items: center
 
         height: 800px
-        width: 100%
+        width: 1220px
 
         max-width: 1220px
 
 
         #top
             display: flex
-            flex-direction: row
 
 
             height: 300px
@@ -136,6 +135,8 @@ body
         
         height: 400px
         width: 100%
+
+        max-width: 1220px
         
         padding-top: 30px
 
@@ -148,7 +149,8 @@ body
             gap: 15px
 
             height: 250px
-            width: 390px
+            width: 100%
+            max-width: 390px
 
             border-radius: 10px
 
@@ -215,3 +217,44 @@ body
 
         .comment
             line-height: 25px
+
+@media (max-width: 1250px)
+    body
+        padding: 30px
+
+        #main
+            margin-top: 300px   
+
+            #top
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+
+                height: 1500px
+
+                margin-top: 200px
+
+                #rating
+                    justify-content: center
+                    align-items: center
+
+                    .rating-box
+                        flex-direction: column
+
+                        gap: 5px
+                        padding-top: 10px
+
+                    .rating-box:nth-child(n)
+                        margin-right: 0
+
+
+            #bottom
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+
+                height: auto
+
+                margin-top: 100px
