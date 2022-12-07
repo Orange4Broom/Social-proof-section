@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
 * {
   font-family: "League Spartan", sans-serif;
+
   box-sizing: border-box;
 }
 
@@ -20,6 +21,7 @@ body #main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
   height: 800px;
   width: 100%;
   max-width: 1220px;
@@ -27,6 +29,7 @@ body #main {
 body #main #top {
   display: flex;
   flex-direction: row;
+
   height: 300px;
   width: 100%;
 }
@@ -35,6 +38,7 @@ body #main #top #content {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+
   gap: 30px;
   height: 300px;
   width: 100%;
@@ -107,6 +111,7 @@ body #bottom {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  
   height: 400px;
   width: 100%;
   padding-top: 30px;
